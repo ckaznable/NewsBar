@@ -1,0 +1,9 @@
+[package]
+name = "NewsBar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = { version = "0.8.2", package = "gtk4", features = ["v4_12", "v4_14"] }
+gdk = { version = "0.8.2", package = "gdk4", features = ["v4_14"] }
+gtk4-layer-shell = "0.3.0"
